@@ -1,7 +1,7 @@
 #include "engine_control.h"
 #include "brake_control.h"
-#include "sensor.h"
 #include "communication.h"
+#include "sensor.h"
 #include <stdio.h>
 int main() {
     printf("Car control system started\n");

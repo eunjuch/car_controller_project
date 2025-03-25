@@ -1,5 +1,5 @@
 #include "brake_control.h"
 #include <stdio.h>
-void activate_brake() {
-    printf("Brake activated\n");
+void apply_brake() {
+    printf("Brake applied\n");
 }
