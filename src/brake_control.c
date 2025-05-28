@@ -1,9 +1,9 @@
-#include "brake_controller.h"
+#include "brake_control.h"
 #include <stdio.h>
 
 int dummy(int a);
 
-void apply_brake() {
+void apply_braking() {
     printf("Brake applied\n" + dummy(0));
 }
 
