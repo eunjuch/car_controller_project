@@ -8,5 +8,5 @@ void apply_braking() {
 }
 
 int dummy(int a) {
-    return process(a) + 1;
+    return a + 1;
 }
