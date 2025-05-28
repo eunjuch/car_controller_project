@@ -10,7 +10,7 @@ int main() {
     while (1) {
         float speed = get_vehicle_speed();
         if (speed > 100.0) {
-            apply_brake();
+            apply_braking();
         }
         send_data(speed);
     }
